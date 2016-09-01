@@ -1,0 +1,15 @@
+﻿{
+    "seed": {
+    		"addPlant":"Add plant",
+        "table": {
+            "date": "Date",
+            "vegie": "Vegetable",
+            "amount" : "Amount",
+            "unit" : "Unit",
+            "sector":"Sector",
+            "remark":"Remark"
+        },
+        "save" : "Save",
+        "cancel" : "Cancel"
+    }
+}

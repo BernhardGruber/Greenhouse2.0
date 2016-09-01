@@ -1,0 +1,16 @@
+﻿{
+    "measure":{
+    		"addWater":"Bewässerungszeitpunkt einfügen",
+    		"addAir":"Belüftungszeitpunkt einfügen",
+        "save" : "Speichern",
+        "cancel" : "Abbrechen",
+        "lastWater":"Letzte Wässerung",
+        "lastAir":"Letzte Belüftung",
+        "nextWater":"Nächste Wässerung",
+        "nextAir":"Nächste Belüftung",
+        "table": {
+            "time": "Zeit",
+            "duration": "Dauer"
+        }                
+    }
+}

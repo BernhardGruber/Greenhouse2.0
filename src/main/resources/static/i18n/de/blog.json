@@ -1,0 +1,14 @@
+﻿{
+    "blog": {
+        "message": "Hey - echt keine Zeit für n Blog",
+        "thx":"Aber was ich schon sagen möchte:",
+        "specialThx":"Meinen ganz speziellen Dank, an diese Leute:",
+        "bigThx":"Und großen auch an diese:",
+        "link": {
+            "acidome": "Acidome",
+            "northernhomestead": "Northernhomestead",
+            "desertdomes":"Desertdomes",
+            "domegeodesique":"Domegeodesique"
+        }        
+    }
+}

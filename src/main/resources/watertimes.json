@@ -1,0 +1,11 @@
+{
+	"list": [{
+		"id": "1",
+		"watertime": "08:00",
+		"duration": 10
+	}, {
+		"id": "2",
+		"watertime": "11:00",
+		"duration": 10
+	}]
+}

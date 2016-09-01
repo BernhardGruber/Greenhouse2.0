@@ -1,0 +1,15 @@
+﻿{
+    "harvest": {
+    "addHarvest":"Add harvest",
+        "table": {
+            "date": "Date",
+            "vegie": "Vegie",
+            "amount" : "Amount",
+            "unit" : "Unit",
+            "sector":"Sector",
+            "remark":"Remark"
+        },
+        "save" : "Save",
+        "cancel" : "Cancel"
+    }
+}

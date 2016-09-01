@@ -1,0 +1,55 @@
+<div class="modal fade">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+     <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">{{ 'seed.addPlant' | translate }}</h4>
+      </div>
+      <div class="modal-body" style="padding-left:3px; padding-right:3px; padding-top:3px;">
+      	
+				<div class="panel panel-default">
+				  	
+				  <div class="panel-body">
+						<div class="form-group">
+						  <label for="plantdate">{{ 'seed.table.date' | translate }}:</label>
+						  <input type="date" id="plantdate" name="plantdate" ng-model="seedSectorVm.attributes.plantdate" class="form-control"/>
+						</div>
+						<div class="form-group">
+						  <label for="vegie">{{ 'seed.table.vegie' | translate }}:</label>						  					
+					    
+					    <input type="text" ng-model="seedSectorVm.attributes.vegetable" uib-typeahead="vegie for vegie in seedSectorVm.vegies | filter:$viewValue | limitTo:8" class="form-control">						  
+					    
+					    <!--
+					    <input type="text" ng-model="seedSectorVm.attributes.vegetable" uib-typeahead="vegie for vegie in seedSectorVm.getVegies($viewValue)| limitTo:8" typeahead-loading="loadingLocations" typeahead-no-results="noResults" class="form-control">					    
+					    <i ng-show="loadingLocations" class="glyphicon glyphicon-refresh"></i>
+   						-->
+						</div>
+						<div class="form-group">
+						  <label for="amount">{{ 'seed.table.amount' | translate }}:</label>
+						  <input ng-model="seedSectorVm.attributes.amount" type="text" class="form-control" id="amount">
+						</div>
+						<div class="form-group">
+						  <label for="unit">{{ 'seed.table.unit' | translate }}:</label>
+						  <input type="text" ng-model="seedSectorVm.attributes.unit" uib-typeahead="unit for unit in seedSectorVm.units | filter:$viewValue | limitTo:8" class="form-control">						  
+						</div>
+						<div class="form-group">
+						  <label for="remark">{{ 'seed.table.remark' | translate }}:</label>
+						  <textarea ng-model="seedSectorVm.attributes.remark" class="form-control" rows="5" id="remark"></textarea>
+						</div>
+						
+				  	
+				  </div>
+				</div>
+      	
+ 			<div class="modal-footer">
+        <button type="button" ng-click="seedSectorVm.save()" class="btn btn-primary" data-dismiss="modal">OK</button>
+        <button type="button" ng-click="seedSectorVm.cancel()" class="btn">Cancel</button>
+      </div>      	
+      	
+			</div>
+
+      		
+      	
+    </div>
+  </div>
+</div>

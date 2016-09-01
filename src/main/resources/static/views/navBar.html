@@ -1,0 +1,52 @@
+      <!-- Standard-Navbar -->
+      
+      <nav class="navbar navbar-default navbar-fixed-top">
+      <div  ng-if="navBarVm.isNavbarVisible">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Navigation ein-/ausblenden</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/#/start">{{ 'navBar.header' | translate }}</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#/start">{{ 'navBar.start' | translate }}</a></li>
+              <li ><a href="#/measure">{{ 'navBar.measure' | translate }}</a></li>
+              <!--
+              <li ><a href="#/schedule">{{ 'navBar.schedule' | translate }}</a></li>
+              -->
+              <!--
+              <li class="dropdown">
+			          <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ 'navBar.plants' | translate }}<span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="#/plants/seed">{{ 'navBar.seed' | translate }}</a></li>
+			            <li><a href="#/plants/harvest">{{ 'navBar.harvest' | translate }}</a></li>
+			          </ul>
+              </li>
+              -->
+	            <li><a href="#/plants/seed">{{ 'navBar.seed' | translate }}</a></li>
+	            <li><a href="#/plants/harvest">{{ 'navBar.harvest' | translate }}</a></li>
+              <li ><a href="#/gallery">{{ 'navBar.gallery' | translate }}</a></li>
+              <li ><a href="#/blog">{{ 'navBar.blog' | translate }}</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+              <li ><a href="#/login">{{ navBarVm.loginText | translate }}</a></li>
+              <li class="dropdown">
+			          <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ 'navBar.properties' | translate }} <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="" ng-click="navBarVm.changeLanguage('de')">DE</a></li>
+			            <li><a href="" ng-click="navBarVm.changeLanguage('en')">EN</a></li>
+			            <li><a href="" ng-click="navBarVm.toggleAnimation()">Toggleanimation</a></li>
+			          </ul>
+			        </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+        </div>
+      </nav>
+      

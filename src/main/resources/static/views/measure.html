@@ -1,0 +1,77 @@
+<div class="headerSpacer" style="height:32px;"></div>
+<div style="background-color:#494858; width:98%; height:600px;">
+<div class="row" style="padding:20px;">
+	<div class="col-xs-6 col-md-1"></div>
+	<div class="col-xs-6 col-md-3">
+		<div class="gaugeContainer">
+			<span id="temperatureGaugeContainer"></span>
+		</div>
+	</div>
+	<div class="col-xs-6 col-md-3">
+		<div class="gaugeContainer">
+			<span id="waterGaugeContainer" ></span>
+		</div>
+	</div>
+	<div class="col-xs-6 col-md-3">
+		<div id="batteryGaugeContainer"  class="gaugeContainer"></div>
+	</div>
+	<div class="col-xs-6 col-md-2">
+		<!--
+		<div style="width: 200px; height: 240px; border:1px solid black;">
+			<div id="barChartContainer"></div>
+		</div>
+		-->
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-xs-6 col-md-3" style="padding-left:20px;">
+		
+		<div class="statusContainer">
+			<table>
+				<tr><td>Status</td><td><img src=""></td></tr>
+				<tr><td>{{ 'measure.lastAir' | translate }}</td><td>&nbsp;</td><td style="border:1px solid black;">{{measureVm.airTimes.last}}</td></tr>
+				<tr><td>{{ 'measure.nextAir' | translate }}</td><td></td><td>{{measureVm.airTimes.next}}</td></tr>
+			</table>
+		</div>
+
+	</div>
+	<div class="col-xs-6 col-md-3">
+		<div id="displayWindow" style="background-image:url('images/misc/win_open01.jpg'); width:190px; height:130px; border:1px solid black;"></div>
+	</div>
+	<div class="col-xs-6 col-md-2">
+		<div id="displayPump" style="background-image:url('images/misc/Shower_symbol.svg'); width:190px; height:130px; border:1px solid black;"></div>
+	</div>
+	<div class="col-xs-6 col-md-3">
+		
+		<div style="padding-left:10px;">
+			<table style="font-size:20px; font-family:courier; background:#494858; color:#00FF00;">
+				<tr><td>Status</td><td><img src=""></td></tr>
+				<tr><td>{{ 'measure.lastWater' | translate }}</td><td>&nbsp;</td><td style="border:1px solid black;">{{measureVm.waterTimes.last}}</td></tr>
+				<tr><td>{{ 'measure.nextWater' | translate }}</td><td></td><td>{{measureVm.waterTimes.next}}</td></tr>
+			</table>
+		</div>
+		
+	</div>
+	<div class="col-xs-6 col-md-1"/>
+</div>
+
+
+<div class="row">
+	<div class="col-xs-6 col-md-3">
+	</div>
+	<div class="col-xs-6 col-md-3" style="padding-top:10px;">
+		<button type="button" id="windowButton" class="glyphicon glyphicon-triangle-bottom" ng-click="measureVm.toggleWindow()" style="color:green; background-color:#494858; font-size:35px;"></button>
+		<button type="button" class="glyphicon glyphicon-list" ng-click="measureVm.showAirList()" style="color:#626260; background-color:#494858; font-size:35px; "></button>
+	</div>
+	<div class="col-xs-6 col-md-3" style="padding-top:10px;">
+		<button type="button" id="pumpButton" class="glyphicon glyphicon-stop" ng-click="measureVm.togglePump()" style="color:#626260; background-color:#494858; font-size:35px;"></button>
+		<button type="button"  class="glyphicon glyphicon-list" ng-click="measureVm.showWaterList()" style="color:#626260; background-color:#494858; font-size:35px;"></button>
+	</div>
+	<div class="col-xs-6 col-md-3">
+	</div>
+</div>
+
+
+
+</div>

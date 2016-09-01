@@ -1,0 +1,16 @@
+﻿{
+    "navBar":{
+        "header": "Gewächshaus 2.0",
+        "start": "Start",
+        "measure": "Messungen",
+        "schedule": "Zeitpläne",
+        "plants": "Pflanzen",
+        "seed": "Anpflanzen",
+        "harvest": "Ernte",
+        "gallery": "Gallerie",
+        "blog" : "Blog",
+        "login" : "Login",
+        "logout" : "Logout",
+        "properties": "Einstellungen"
+    }
+}

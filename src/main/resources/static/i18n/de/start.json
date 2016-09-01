@@ -1,0 +1,11 @@
+﻿{
+    "start": {
+        "title": "Gewächshaus 2.0",
+        "subtitle": "Gewächshaussteuerung mit Raspi",
+        "thetext": "Nein, das Gewächshaus ist leider noch nicht fertig und nein, die Raspi-Schnittstelle ist noch nicht implementiert - wird sie aber... Aber das - ist eine andere Geschichte. Dies hier wird die Oberfläche für die Steuerung von Bewässerung und Belüftung des Gewächshauses, sowie die Verwaltung von Bepflanzung und Ernte.",
+        "link": {
+            "projectpage": "Project Homepädsch",
+            "homepage": "Mei Homepädsch"
+        }
+    }
+}

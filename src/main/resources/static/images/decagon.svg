@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 13.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="2015px" height="2015px" viewBox="0 0 2015 2015" enable-background="new 0 0 2015 2015"
+	 xml:space="preserve">
+<svg height="2015" width="2015">
+  <polygon points="700,0 1300,0 1804,360 2000,1000 1804,1640 1300,2000 700,2000 196,1640 0,1000 196,360"
+  style="fill:lime;stroke:black;stroke-width:5;fill-rule:nonzero;" />
+  <circle cx="1000" cy="1000" r="500" stroke="rgb(128,128,0)" stroke-width="190" fill="red" fill-opacity="0"/>
+  
+  <line x1="700" y1="0" x2="1300" y2="2000" style="stroke:rgb(0,0,0);stroke-width:12" />
+  <line x1="1300" y1="0" x2="700" y2="2000" style="stroke:rgb(0,0,0);stroke-width:12" />
+  <line x1="1804" y1="360" x2="196" y2="1640" style="stroke:rgb(0,0,0);stroke-width:12" />
+  <line x1="2000" y1="1000" x2="0" y2="1000" style="stroke:rgb(0,0,0);stroke-width:12" />
+  <line x1="1804" y1="1640" x2="196" y2="360" style="stroke:rgb(0,0,0);stroke-width:12" />
+  
+  <polygon points="700,0 1300,0 1160,460 840,460" style="fill:blue;stroke:red;stroke-width:5;fill-rule:nonzero;" />
+  <polygon points="1300,0 1804,360 1450,630 1160,460" style="fill:yellow;stroke:red;stroke-width:5;fill-rule:nonzero;" />
+  <polygon points="1804,360 2000,1000 1580,1000 1450,630" style="fill:orange;stroke:red;stroke-width:5;fill-rule:nonzero;" />
+  <polygon points="2000,1000 1804,1640 1460,1360 1580,1000" style="fill:magenta;stroke:red;stroke-width:5;fill-rule:nonzero;" />
+  <polygon points="1804,1640 1300,2000 1170,1550 1460,1360" style="fill:green;stroke:red;stroke-width:5;fill-rule:nonzero;" />
+  <polygon points="1300,2000 700,2000 840,1550 1170,1550 " style="fill:blue;stroke:red;stroke-width:5;fill-rule:nonzero;" />
+  <polygon points="700,2000 196,1640 550,1370 840,1550" style="fill:yellow;stroke:red;stroke-width:5;fill-rule:nonzero;" />
+  <polygon points="196,1640 0,1000 420,1000 550,1370" style="fill:orange;stroke:red;stroke-width:5;fill-rule:nonzero;" />
+  <polygon points="0,1000 196,360 550,630 420,1000" style="fill:magenta;stroke:red;stroke-width:5;fill-rule:nonzero;" />
+  <polygon points="196,360 700,0 840,460 550,630" style="fill:green;stroke:red;stroke-width:5;fill-rule:nonzero;" />
+  
+  <polygon points="1120,590 870,590 1000,1000" style="fill:yellow;stroke:red;stroke-width:5;fill-rule:nonzero;" />
+  <polygon points="1120,590 1340,720 1000,1000" style="fill:orange;stroke:red;stroke-width:5;fill-rule:nonzero;" />
+  <polygon points="1340,720 1430,1000 1000,1000" style="fill:magenta;stroke:red;stroke-width:5;fill-rule:nonzero;" />
+  <polygon points="1430,1000 1340,1270 1000,1000" style="fill:green;stroke:red;stroke-width:5;fill-rule:nonzero;" />
+  <polygon points="1340,1270 1130,1410 1000,1000" style="fill:blue;stroke:red;stroke-width:5;fill-rule:nonzero;" />
+  <polygon points="1130,1410 870,1410 1000,1000" style="fill:yellow;stroke:red;stroke-width:5;fill-rule:nonzero;" />
+  <polygon points="870,1410 670,1270 1000,1000" style="fill:orange;stroke:red;stroke-width:5;fill-rule:nonzero;" />
+  <polygon points="670,1270 570,1000 1000,1000" style="fill:magenta;stroke:red;stroke-width:5;fill-rule:nonzero;" />
+  <polygon points="570,1000 660,720 1000,1000" style="fill:green;stroke:red;stroke-width:5;fill-rule:nonzero;" />
+  <polygon points="660,720 870,590 1000,1000" style="fill:blue;stroke:red;stroke-width:5;fill-rule:nonzero;" />
+  
+  <polygon points="1604,1790 1500,1860 1250,1500 1390,1410" style="fill:rgb(128,128,0);stroke:red;stroke-width:5;fill-rule:nonzero;" />
+
+</svg>
+</svg>

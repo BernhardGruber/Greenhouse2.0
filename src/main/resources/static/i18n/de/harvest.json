@@ -1,0 +1,15 @@
+﻿{
+    "harvest": {
+    "addHarvest":"Ernte einfügen",
+        "table": {
+            "date": "Datum",
+            "vegie": "Gemüse",
+            "amount" : "Menge",
+            "unit" : "Einheit",
+            "sector":"Sektor",
+            "remark":"Anmerkung"
+        },
+        "save" : "Speichern",
+        "cancel" : "Abbrechen"
+    }
+}

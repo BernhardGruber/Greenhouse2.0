@@ -1,0 +1,16 @@
+﻿{
+    "measure":{
+    		"addWater":"Add Watering Time",
+    		"addAir":"Add Venting Time",
+        "save" : "Save",
+        "cancel" : "Cancel",
+        "lastWater":"Last watering",
+        "lastAir":"Last venting",        
+        "nextWater":"Next watering",
+        "nextAir":"Next venting",
+        "table": {
+            "time": "Time",
+            "duration": "Duration"
+        }        
+    }
+}

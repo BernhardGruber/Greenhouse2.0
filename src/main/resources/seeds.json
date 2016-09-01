@@ -1,0 +1,296 @@
+{
+  "list": [
+    {
+      "id": 1,
+      "plantdate": "16.04.2016",
+      "vegetable": "Gurken",
+      "amount": 3,
+      "unit": "Pflanzen",
+      "remark": "Von Arche Noah",
+      "sector": 20
+    },
+    {
+      "id": 2,
+      "plantdate": "16.04.2016",
+      "vegetable": "Tomaten",
+      "amount": 4,
+      "unit": "Pflanzen",
+      "remark": "Farbe violett",
+      "sector": 20
+    },
+    {
+      "id": 3,
+      "plantdate": "16.04.2016",
+      "vegetable": "Zuccini",
+      "amount": 3,
+      "unit": "Pflanzen",
+      "remark": "2 gelb, 1 grün",
+      "sector": 19
+    },
+    {
+      "id": 4,
+      "plantdate": "16.04.2016",
+      "vegetable": "Radieschen",
+      "amount": 50,
+      "unit": "Samen",
+      "remark": "ca.",
+      "sector": 1
+    },
+    {
+      "id": 5,
+      "plantdate": "16.04.2016",
+      "vegetable": "Karotten",
+      "amount": 50,
+      "unit": "Samen",
+      "remark": "ca.",
+      "sector": 2
+    },
+    {
+      "id": 6,
+      "plantdate": "16.04.2016",
+      "vegetable": "Melanzani",
+      "amount": 2,
+      "unit": "Pflanzen",
+      "remark": "Von Arche Noah",
+      "sector": 18
+    },
+    {
+      "id": 7,
+      "plantdate": "16.04.2016",
+      "vegetable": "Paprika",
+      "amount": 2,
+      "unit": "Pflanzen",
+      "remark": "",
+      "sector": 17
+    },
+    {
+      "id": 8,
+      "plantdate": "16.04.2016",
+      "vegetable": "Kopfsalat",
+      "amount": 12,
+      "unit": "Pflanzen",
+      "remark": "",
+      "sector": 16
+    },
+    {
+      "id": 9,
+      "plantdate": "16.04.2016",
+      "vegetable": "Radiccio",
+      "amount": 6,
+      "unit": "Pflanzen",
+      "remark": "",
+      "sector": 15
+    },
+    {
+      "id": 10,
+      "plantdate": "16.04.2016",
+      "vegetable": "Kürbis",
+      "amount": 3,
+      "unit": "Pflanzen",
+      "remark": "Von Arche Noah",
+      "sector": 14
+    },
+    {
+      "id": 11,
+      "plantdate": "16.04.2016",
+      "vegetable": "Schnittlauch",
+      "amount": 1,
+      "unit": "Stock",
+      "remark": "",
+      "sector": 13
+    },
+    {
+      "id": 12,
+      "plantdate": "20.06.2016",
+      "vegetable": "Karotten",
+      "amount": 50,
+      "unit": "Samen",
+      "sector": 1
+    },
+    {
+      "id": 13,
+      "plantdate": "20.06.2016",
+      "vegetable": "Pastinaken",
+      "amount": 20,
+      "unit": "Samen",
+      "sector": 2
+    },
+    {
+      "id": 14,
+      "plantdate": "20.06.2016",
+      "vegetable": "Koriander",
+      "amount": 1,
+      "unit": "Stock",
+      "sector": 3
+    },
+    {
+      "id": 15,
+      "plantdate": "20.06.2016",
+      "vegetable": "Petersilie",
+      "amount": 1,
+      "unit": "Stock",
+      "sector": 3
+    },
+    {
+      "id": 16,
+      "plantdate": "20.06.2016",
+      "vegetable": "Schnittlauch",
+      "amount": 1,
+      "unit": "Stock",
+      "sector": 3
+    },
+    {
+      "id": 17,
+      "plantdate": "20.06.2016",
+      "vegetable": "Kopfsalat",
+      "amount": 30,
+      "unit": "Samen",
+      "sector": 4
+    },
+    {
+      "id": 18,
+      "plantdate": "20.06.2016",
+      "vegetable": "Radiccio",
+      "amount": 10,
+      "unit": "Samen",
+      "sector": 4
+    },
+    {
+      "id": 19,
+      "plantdate": "20.06.2016",
+      "vegetable": "Ruccola",
+      "amount": 5,
+      "unit": "Pflanzen",
+      "sector": 4
+    },
+    {
+      "id": 20,
+      "plantdate": "20.06.2016",
+      "vegetable": "Zwiebel",
+      "amount": 20,
+      "unit": "Pflanzen",
+      "sector": 5
+    },
+    {
+      "id": 21,
+      "plantdate": "20.06.2016",
+      "vegetable": "Karfiol",
+      "amount": 8,
+      "unit": "Pflanzen",
+      "sector": 5
+    },
+    {
+      "id": 22,
+      "plantdate": "20.06.2016",
+      "vegetable": "Kohlrabi",
+      "amount": 7,
+      "unit": "Pflanzen",
+      "sector": 6
+    },
+    {
+      "id": 23,
+      "plantdate": "20.06.2016",
+      "vegetable": "Brokkoli",
+      "amount": 6,
+      "unit": "Pflanzen",
+      "sector": 6
+    },
+    {
+      "id": 24,
+      "plantdate": "20.06.2016",
+      "vegetable": "Kraut",
+      "amount": 8,
+      "unit": "Pflanzen",
+      "sector": 7
+    },
+    {
+      "id": 25,
+      "plantdate": "20.06.2016",
+      "vegetable": "Kohlsprossen",
+      "amount": 4,
+      "unit": "Pflanzen",
+      "sector": 7
+    },
+    {
+      "id": 26,
+      "plantdate": "20.06.2016",
+      "vegetable": "Kartoffel",
+      "amount": 10,
+      "unit": "Pflanzen",
+      "sector": 8
+    },
+    {
+      "id": 27,
+      "plantdate": "20.06.2016",
+      "vegetable": "Kürbis",
+      "amount": 7,
+      "unit": "Pflanzen",
+      "sector": 9
+    },
+    {
+      "id": 28,
+      "plantdate": "20.06.2016",
+      "vegetable": "Melanzani",
+      "amount": 4,
+      "unit": "Pflanzen",
+      "sector": 10
+    },
+    {
+      "id": 29,
+      "plantdate": "20.06.2016",
+      "vegetable": "Paprika",
+      "amount": 5,
+      "unit": "Pflanzen",
+      "sector": 10
+    },
+    {
+      "id": 30,
+      "plantdate": "20.06.2016",
+      "vegetable": "Zuccini",
+      "amount": 3,
+      "unit": "Pflanzen",
+      "sector": 11
+    },
+    {
+      "id": 31,
+      "plantdate": "20.06.2016",
+      "vegetable": "Tomaten",
+      "amount": 3,
+      "unit": "Pflanzen",
+      "remark": "Farbe lila",
+      "sector": 12
+    },
+    {
+      "id": 32,
+      "plantdate": "20.06.2016",
+      "vegetable": "Tomaten",
+      "amount": 2,
+      "unit": "Pflanzen",
+      "sector": 13
+    },
+    {
+      "id": 33,
+      "plantdate": "20.06.2016",
+      "vegetable": "Tomaten",
+      "amount": 2,
+      "unit": "Pflanzen",
+      "sector": 15
+    },
+    {
+      "id": 34,
+      "plantdate": "20.06.2016",
+      "vegetable": "Tomaten",
+      "amount": 2,
+      "unit": "Pflanzen",
+      "sector": 16
+    },
+    {
+      "id": 35,
+      "plantdate": "20.06.2016",
+      "vegetable": "Tomaten",
+      "amount": 3,
+      "unit": "Pflanzen",
+      "sector": 18
+    }
+  ]
+}

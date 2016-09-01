@@ -1,0 +1,12 @@
+﻿{
+    "main": {
+        "title": "Greenhouse 2.0",
+        "subtitle": "Greenhouse management with Raspi",
+        "question": "What the fuck??",
+        "link": {
+            "projectpage": "Project Homepage",
+            "homepage": "My Homepage"
+        }
+    }
+}
+ 

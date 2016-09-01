@@ -1,0 +1,11 @@
+{"list":
+	[{
+		"id": "1",
+		"airtime": "11:00",
+		"duration": 180
+	},{
+		"id": "2",
+		"airtime": "16:00",
+		"duration": 60
+	}]
+}

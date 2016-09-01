@@ -1,0 +1,258 @@
+#animation {
+  -webkit-animation: one 5s infinite;
+  -webkit-animation-play-state: paused; }
+
+.unplantedSoil, .outerPoly1, .outerPoly2, .outerPoly3, .outerPoly4, .outerPoly5, .outerPoly6, .outerPoly7, .outerPoly8, .outerPoly9, .outerPoly10, .innerPoly1, .innerPoly2, .innerPoly3, .innerPoly4, .innerPoly5, .innerPoly6, .innerPoly7, .innerPoly8, .innerPoly9, .innerPoly10 {
+  fill: #404000;
+  stroke: black;
+  stroke-width: 5; }
+
+.plantedSoil {
+  fill: #008000;
+  stroke: black;
+  stroke-width: 5; }
+
+.greenHousePath {
+  fill: #800000;
+  stroke: #800000;
+  stroke-width: 5; }
+
+.greenHousePathCircle {
+  stroke-width: 190; }
+
+.outerPoly1 {
+  animation-name: outerPoly1;
+  animation-duration: 4.3s;
+  animation-delay: 0.1s; }
+
+.outerPoly2 {
+  animation-name: outerPoly2;
+  animation-duration: 4.1s;
+  animation-delay: 0.2s; }
+
+.outerPoly3 {
+  animation-name: outerPoly3;
+  animation-duration: 3.9s;
+  animation-delay: 0.3s; }
+
+.outerPoly4 {
+  animation-name: outerPoly4;
+  animation-duration: 3.7s;
+  animation-delay: 0.4s; }
+
+.outerPoly5 {
+  animation-name: outerPoly5;
+  animation-duration: 3.5s;
+  animation-delay: 0.5s; }
+
+.outerPoly6 {
+  animation-name: outerPoly6;
+  animation-duration: 3.3s;
+  animation-delay: 0.6s; }
+
+.outerPoly7 {
+  animation-name: outerPoly7;
+  animation-duration: 3.1s;
+  animation-delay: 0.7s; }
+
+.outerPoly8 {
+  animation-name: outerPoly8;
+  animation-duration: 2.9s;
+  animation-delay: 0.8s; }
+
+.outerPoly9 {
+  animation-name: outerPoly9;
+  animation-duration: 2.7s;
+  animation-delay: 0.9s; }
+
+.outerPoly10 {
+  animation-name: outerPoly10;
+  animation-duration: 2.5s;
+  animation-delay: 1s; }
+
+.innerPoly1 {
+  animation-name: innerPoly1;
+  animation-duration: 2.3s;
+  animation-delay: 1.1s; }
+
+.innerPoly2 {
+  animation-name: innerPoly2;
+  animation-duration: 2.1s;
+  animation-delay: 1.2s; }
+
+.innerPoly3 {
+  animation-name: innerPoly3;
+  animation-duration: 1.9s;
+  animation-delay: 1.3s; }
+
+.innerPoly4 {
+  animation-name: innerPoly4;
+  animation-duration: 1.7s;
+  animation-delay: 1.4s; }
+
+.innerPoly5 {
+  animation-name: innerPoly5;
+  animation-duration: 1.5s;
+  animation-delay: 1.5s; }
+
+.innerPoly6 {
+  animation-name: innerPoly6;
+  animation-duration: 1.3s;
+  animation-delay: 1.6s; }
+
+.innerPoly7 {
+  animation-name: innerPoly7;
+  animation-duration: 1.1s;
+  animation-delay: 1.7s; }
+
+.innerPoly8 {
+  animation-name: innerPoly8;
+  animation-duration: 0.9s;
+  animation-delay: 1.8s; }
+
+.innerPoly9 {
+  animation-name: innerPoly9;
+  animation-duration: 0.7s;
+  animation-delay: 1.9s; }
+
+.innerPoly10 {
+  animation-name: innerPoly10;
+  animation-duration: 0.5s;
+  animation-delay: 2s; }
+
+@keyframes outerPoly1 {
+  0% {
+    fill: blue; }
+  100% {
+    fill: blue; } }
+
+@keyframes outerPoly2 {
+  0% {
+    fill: orange; }
+  100% {
+    fill: orange; } }
+
+@keyframes outerPoly3 {
+  0% {
+    fill: magenta; }
+  100% {
+    fill: magenta; } }
+
+@keyframes outerPoly4 {
+  0% {
+    fill: green; }
+  100% {
+    fill: green; } }
+
+@keyframes outerPoly5 {
+  0% {
+    fill: yellow; }
+  100% {
+    fill: yellow; } }
+
+@keyframes outerPoly6 {
+  0% {
+    fill: blue; }
+  100% {
+    fill: blue; } }
+
+@keyframes outerPoly7 {
+  0% {
+    fill: orange; }
+  100% {
+    fill: orange; } }
+
+@keyframes outerPoly8 {
+  0% {
+    fill: magenta; }
+  100% {
+    fill: magenta; } }
+
+@keyframes outerPoly9 {
+  0% {
+    fill: green; }
+  100% {
+    fill: green; } }
+
+@keyframes outerPoly10 {
+  0% {
+    fill: yellow; }
+  100% {
+    fill: yellow; } }
+
+@keyframes innerPoly1 {
+  0% {
+    fill: orange; }
+  100% {
+    fill: orange; } }
+
+@keyframes innerPoly2 {
+  0% {
+    fill: magenta; }
+  100% {
+    fill: magenta; } }
+
+@keyframes innerPoly3 {
+  0% {
+    fill: green; }
+  100% {
+    fill: green; } }
+
+@keyframes innerPoly4 {
+  0% {
+    fill: yellow; }
+  100% {
+    fill: yellow; } }
+
+@keyframes innerPoly5 {
+  0% {
+    fill: blue; }
+  100% {
+    fill: blue; } }
+
+@keyframes innerPoly6 {
+  0% {
+    fill: orange; }
+  100% {
+    fill: orange; } }
+
+@keyframes innerPoly7 {
+  0% {
+    fill: magenta; }
+  100% {
+    fill: magenta; } }
+
+@keyframes innerPoly8 {
+  0% {
+    fill: green; }
+  100% {
+    fill: green; } }
+
+@keyframes innerPoly9 {
+  0% {
+    fill: yellow; }
+  100% {
+    fill: yellow; } }
+
+@keyframes innerPoly10 {
+  0% {
+    fill: blue; }
+  100% {
+    fill: blue; } }
+
+.gaugeContainer {
+  width: 200px;
+  height: 200px;
+  padding: 0px;
+  background-image: url("/app/images/misc/armature.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 190px 190px; }
+
+.statusContainer {
+  font-size: 20px;
+  font-family: courier;
+  background: #494858;
+  color: #00FF00;
+  padding-left: 20px;
+  border: 3px solid #5F5E6E; }

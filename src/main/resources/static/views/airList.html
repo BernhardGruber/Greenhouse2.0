@@ -1,0 +1,78 @@
+﻿<div class="modal fade">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+     	<div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">{{ 'measure.addAir' | translate }}</h4>
+      </div>
+      <div class="modal-body" style="padding-left:3px; padding-right:3px; padding-top:3px;">
+      		
+		  	  <table class="table table-bordered">
+				    <thead>
+				      <tr>
+				        <th><a href=""><span ng-click="airListVm.toggleForm()" class="glyphicon glyphicon-plus"></span></a></th>
+				        <th>{{ 'measure.table.time' | translate }}</th>
+				        <th>{{ 'measure.table.duration' | translate }}</th>
+				      </tr>
+				    </thead>
+				    <tbody>
+				    	<tr ng-hide="airListVm.hideForm">
+				    		<td>
+				    				<a href=""><span  ng-click="airListVm.saveAir()" class="glyphicon glyphicon-ok"></span></a>
+				    		</td>
+				    		<td>
+							  	
+					 				<div class="input-group bootstrap-timepicker timepicker">
+					            <input id="timepicker" type="text" class="form-control input-small" ng-model="airListVm.newAir.airtime">
+					            <span class="input-group-addon">
+					                <i class="glyphicon glyphicon-time"></i>
+					            </span>
+					        </div>        
+									<script type="text/javascript">
+					            $('#timepicker').timepicker({
+					                minuteStep: 1,
+					                template: 'modal',
+					                appendWidgetTo: 'body',
+					                showSeconds: false,
+					                showMeridian: false,
+					                defaultTime: false
+					            });
+					        </script>        
+				    		
+				    		</td>
+				    		<td>
+										<div class="input-group">
+										    <span class="input-group-btn">
+										        <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+										            <span class="glyphicon glyphicon-minus"></span>
+										        </button>
+										    </span>
+										    <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="2" data-min="5" data-max="20" ng-model="airListVm.newAir.durationMin">
+										    <span class="input-group-btn">
+										        <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+										            <span class="glyphicon glyphicon-plus"></span>
+										        </button>
+										    </span>
+										</div>				    			
+				    		</td>
+				    	</tr>
+				      <tr ng-repeat="airtime in airListVm.airTimes">
+							  <td><a href=""><span ng-click="airListVm.deleteAir(airtime.id)" class="glyphicon glyphicon-remove"></span></a></td>
+							  <td><input type="text" value="{{airtime.airtime}}"/></td>
+							  <td><input type="text" value="{{airtime.durationMin}}"/></td>
+				      </tr>      
+				    </tbody>
+				  </table>
+      	
+			</div>
+      	
+      	
+ 			<div class="modal-footer">
+        
+        <button type="button" ng-click="airListVm.cancel()" class="btn" data-dismiss="modal">Cancel</button>
+      </div> 
+      			
+      	
+    </div>
+  </div>
+</div>

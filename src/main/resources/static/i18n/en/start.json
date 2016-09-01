@@ -1,0 +1,11 @@
+﻿{
+	"start": {
+		"title": "Greenhouse 2.0",
+		"subtitle": "Raspi driven Greenhouse",
+		"thetext": "No, the greenhouse is unfortunately not finished yet, neither is the Raspi-Interface. But it will be not so far from now ... But that - is a different story. This here is the Interface for managing the greenhouse concerning watering, venting, planting and harvesting",
+		"link": {
+			"projectpage": "Project Homepädsch",
+			"homepage": "Mei Homepädsch"
+		}
+	}
+}
